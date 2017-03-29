@@ -9,7 +9,7 @@ module.exports = function (cb) {
       let regex = new RegExp(v4, 'g')
 
       let isOnline = regex.test(response.body)
-  		cb(null, isOnline, response.body)
+  		cb(null, isOnline)
   	})
   	.catch(error => {
   		cb(error, false)
