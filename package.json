@@ -1,6 +1,6 @@
 {
   "name": "are-we-online",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "scripts": {
     "release:major": "env SEMANTIC=major npm run release",
     "release:minor": "env SEMANTIC=minor npm run release",
@@ -10,6 +10,5 @@
   "dependencies": {
     "got": "6.7.1"
   },
-  "devDependencies": {
-  }
+  "devDependencies": {}
 }
