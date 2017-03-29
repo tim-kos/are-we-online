@@ -11,11 +11,11 @@ Usage:
 ```
 const areWeOnline = require('are-we-online')
 
-areWeOnline(function (err, isOnline) {
-    if (isOnline) {
-      console.log('We are online')
-    } else {
-      console.log('We are not online')
-    }
+areWeOnline(isOnline => {
+  if (isOnline) {
+    console.log('We are online')
+  } else {
+    console.log('We are not online')
+  }
 })
 ```

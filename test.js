@@ -1,6 +1,6 @@
 const areWeOnline = require('./index.js')
 const assert = require('assert')
 
-areWeOnline(function (err, online) {
+areWeOnline(online => {
   assert.ok(online)
 })
