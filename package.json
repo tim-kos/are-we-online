@@ -4,7 +4,7 @@
   "scripts": {
     "release:major": "env SEMANTIC=major npm run release",
     "release:minor": "env SEMANTIC=minor npm run release",
-    "release:patch": "env SEMANTIC=patch npm run release",
+    "release:patch": "env SEMANTIC=patch npm run release"
   },
   "dependencies": {
     "got": "6.7.1"
